@@ -1,2 +1,246 @@
 @import "../bootstrap.less";
 @import "variables.less";
+
+
+/*общие стили*/
+
+@font-face {
+    font-family: 'proxima_regular';
+    src: url('../fonts/proxima_regular/ProximaNova-Regular.eot?') format('eot'),
+    	 url('../fonts/proxima_regular/ProximaNova-Regular.otf') format('opentype'),
+         url('../fonts/proxima_regular/ProximaNova-Regular.woff') format('woff'),
+         url('../fonts/proxima_regular/ProximaNova-Regular.ttf')  format('truetype'),
+         url('../fonts/proxima_regular/ProximaNova-Regular.svg#svgFontName') format('svg');
+    }
+
+@font-face {
+    font-family: 'proxima_bold';
+    src: url('../fonts/proxima_bold/ProximaNova-Bold.eot?') format('eot'),
+    	 url('../fonts/proxima_bold/ProximaNova-Bold.otf') format('opentype'),
+         url('../fonts/proxima_bold/ProximaNova-Bold.woff') format('woff'),
+         url('../fonts/proxima_bold/ProximaNova-Bold.ttf')  format('truetype'),
+         url('../fonts/proxima_bold/ProximaNova-Bold.svg#svgFontName') format('svg');
+    }
+
+@font-face {
+    font-family: 'proxima_light';
+    src: url('../fonts/proxima_light/ProximaNova-Light.eot?') format('eot'),
+    	 url('../fonts/proxima_light/ProximaNova-Light.otf') format('opentype'),
+         url('../fonts/proxima_light/ProximaNova-Light.woff') format('woff'),
+         url('../fonts/proxima_light/ProximaNova-Light.ttf')  format('truetype'),
+         url('../fonts/proxima_light/ProximaNova-Light.svg#svgFontName') format('svg');
+    }
+
+body{
+	font: 1.6em/1.3em 'proxima_bold';
+	color: #000;
+}
+
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+
+	/*Настройка текста*/
+
+.light_font{
+	font-family: 'proxima_light';
+}
+.regular_font{
+	font-family: 'proxima_regular';
+}
+.bold_font{
+	font-family: 'proxima_bold';
+}
+
+
+	/*Настройка ссылок*/
+
+.small_link{
+	a{
+		display: block;
+		color: #7b898e;
+		font-size: 10px;
+		text-decoration: none;
+		.regular_font;
+	}
+	a.hover{
+		color: #7b898e;
+	}
+}
+
+	/*настройка input*/
+
+.input_group_style{
+	input, select{
+		margin: 7px 0px 7px 0px;
+		font-size: 10px;
+		height: 30px;
+		border: 0;
+		border-radius: 3px;
+		.light_font;
+	}
+	select{
+		padding: 7px;
+		option{
+			margin: 5px;
+		}
+	}
+	button{
+		margin-top: 3px;
+		width: 100%;
+		height: 37px;
+		border: 0;
+		border-radius: 3px;
+		background-image: url(../img/header/button.png);
+		background-repeat: repeat-x;
+		color: #fff;
+	}
+	button:hover{
+		color: #fff;
+	}
+}
+
+	/*header*/
+
+header{
+	margin-top: 40px;
+	min-height: 360px;
+	background-color: @header_red;
+	background-image: url(../img/header/header_bg.png);
+	background-repeat: repeat-x;
+	background-size: contain;
+	.logo{
+		position: absolute;
+		padding: 8px 20px 8px 20px;
+		border: 1px solid #ccc;
+		border-top: 0;
+		background-color: #fff;
+		left: 80px;
+		top: -40px;
+		img{
+			height: 55px;
+		}
+	}
+	.header_info{
+		height: 360px;
+		background-image: url(../img/header/header_girl_2.png);
+		background-repeat: no-repeat;
+		background-size: contain;
+		.header_center_block{
+			margin-top: 45px;
+			.red_pocket_logo{
+				img{
+					height: 70px;
+				}
+			}
+			.advertising{
+				margin-top: 25px;
+				color: #ffc600;
+				.text_block{
+					p{
+						font-size: 42px;
+						margin: 7px 0px 7px 0px;
+					}
+					span{
+						display: inline-block;
+					}
+					.span01{
+						color: #fff;
+						font-size: 18px;
+					}
+					.span02{
+						font-size: 16px;
+					}
+					.span03{
+						font-style: italic;
+						font-size: 25px;
+						font-weight: bold;
+					}
+					.span04{
+						font-size: 12px;
+					}
+				}
+				.price_block{
+					margin: 5px auto 0px auto;
+					width: 180px;
+					height: 120px;
+					.circle{
+						width: 120px;
+						height: 120px;
+						border-radius: 60px;
+						background-color: #ea2c33;
+						span{
+							display: block;
+							position: relative;
+							z-index: 2;
+						}
+						.span01{
+							font-size: 12px;
+							top: 20px;
+						}
+						.span02{
+							color: #fff; 
+							font-size: 70px;
+							top: 35px;
+						}
+						.span03{
+							color: #fff;
+							font-size: 35px;
+							left: -50px;
+							top: 12px;
+						}
+
+					}
+					.circle_small{
+						z-index: 1;
+						width: 70px;
+						height: 70px;
+						border-radius: 35px;
+						background-color: #ea2c33;
+						position: relative;
+						top: -100px;
+						left: 90px;
+						span{
+							display: block;
+							position: relative;
+						}
+						.span01{
+							color: #fff;
+							top: 22px;
+							font-size: 35px;
+						}
+						.span02{
+							top: 25px;
+							font-size: 9px;
+							.light_font;
+						}
+					}
+				}
+			}
+			.snake{
+				z-index: 0;
+				position: relative;
+				top: -30px;
+				left: 86px;
+				img{
+					z-index: 0;
+					height: 55px;
+				}				
+			}
+		}
+	}
+	.input_group{
+		margin: 45px 80px 0 0;
+		color: #fff;
+		p{
+			margin: 0;
+			font-size: 24px;
+		}
+		p.light_font{
+			font-size: 10px;
+		}
+		.input_group_style;
+	}
+}
