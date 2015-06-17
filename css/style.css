@@ -6786,3 +6786,149 @@ header .input_group button {
 header .input_group button:hover {
   color: #fff;
 }
+@media (min-width: 768px) and (max-width: 991px) {
+  header .header_info {
+    background-image: url(../img/header/header_girl_xs.png);
+  }
+  header .input_group {
+    margin: 45px 20px 0 0;
+    color: #fff;
+  }
+  header .input_group p {
+    margin: 0;
+    font-size: 24px;
+  }
+  header .input_group p.light_font {
+    font-size: 10px;
+  }
+  header .input_group input,
+  header .input_group select {
+    margin: 7px 0px 7px 0px;
+    font-size: 10px;
+    height: 30px;
+    border: 0;
+    border-radius: 3px;
+    font-family: 'proxima_light';
+  }
+  header .input_group select {
+    padding: 7px;
+  }
+  header .input_group select option {
+    margin: 5px;
+  }
+  header .input_group button {
+    margin-top: 3px;
+    width: 100%;
+    height: 37px;
+    border: 0;
+    border-radius: 3px;
+    background-image: url(../img/header/button.png);
+    background-repeat: repeat-x;
+    color: #fff;
+  }
+  header .input_group button:hover {
+    color: #fff;
+  }
+  section .content .tariff_plans div {
+    max-height: 250px;
+  }
+  section .content .tariff_plans .bonus_block {
+    margin-top: 0;
+  }
+  section .content .tariff_plans .price_block_small {
+    margin-top: 35px;
+  }
+  section .content .tariff_plans .price_block_with_bonus {
+    margin-top: 0px;
+  }
+  section .content .advantages {
+    padding: 22px 10% 0px 10%;
+  }
+}
+@media (max-width: 767px) {
+  header .header_info {
+    background-image: url(../img/header/header_girl_xs.png);
+  }
+  section .input_group {
+    margin: 20px;
+    color: #cb171e;
+  }
+  section .input_group p {
+    margin: 0;
+    font-size: 24px;
+  }
+  section .input_group p.light_font {
+    font-size: 10px;
+  }
+  section .input_group input,
+  section .input_group select {
+    margin: 7px 0px 7px 0px;
+    font-size: 10px;
+    height: 30px;
+    border: 0;
+    border-radius: 3px;
+    font-family: 'proxima_light';
+  }
+  section .input_group select {
+    padding: 7px;
+  }
+  section .input_group select option {
+    margin: 5px;
+  }
+  section .input_group button {
+    margin-top: 3px;
+    width: 100%;
+    height: 37px;
+    border: 0;
+    border-radius: 3px;
+    background-image: url(../img/header/button.png);
+    background-repeat: repeat-x;
+    color: #fff;
+  }
+  section .input_group button:hover {
+    color: #fff;
+  }
+  section .input_group input,
+  section .input_group select {
+    border: 1px solid #ccc;
+  }
+  section .content {
+    margin-right: 10px;
+    margin-left: 10px;
+  }
+  section .content .tariff_table .tariff {
+    border: 1px solid #ccc;
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+  section .content .tariff_table .tariff_left_bottom,
+  section .content .tariff_table .tariff_right_top,
+  section .content .tariff_table .tariff_right_bottom {
+    border-top: 0;
+  }
+  section .content .tariff_plans div {
+    max-height: 250px;
+  }
+  section .content .tariff_plans .price_block_small {
+    margin-top: 0px;
+  }
+  section .content .tariff_plans .price_block_with_bonus {
+    margin-top: 0;
+  }
+  section .content .tariff_plans .bonus_block {
+    margin-top: 10px;
+  }
+  section .content .advantages {
+    padding: 5px 0 5px 0;
+    margin: 0 -10px 0 -10px;
+  }
+  section .content .advantages div {
+    padding: 5px;
+  }
+  section .sign_up {
+    background-size: auto 105px;
+  }
+  footer .footer_block {
+    padding-top: 10px;
+  }
+}

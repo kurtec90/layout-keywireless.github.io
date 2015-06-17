@@ -244,3 +244,117 @@ header{
 		.input_group_style;
 	}
 }
+
+
+
+
+
+
+@media (min-width: @screen-sm-min) and (max-width: @screen-sm-max){
+	header{
+		.header_info{
+			background-image: url(../img/header/header_girl_xs.png);
+		}
+		.input_group{
+			margin: 45px 20px 0 0;
+			color: #fff;
+			p{
+				margin: 0;
+				font-size: 24px;
+			}
+			p.light_font{
+				font-size: 10px;
+			}
+			.input_group_style;
+		}
+	}
+	section{
+		.content{
+			.tariff_plans{
+				div{
+					max-height: 250px;
+				}
+				.bonus_block{
+					margin-top: 0;
+				}
+				.price_block_small{
+					margin-top: 35px;
+				}
+				.price_block_with_bonus{
+					margin-top: 0px;
+				}
+			}
+			.advantages{
+				padding: 22px 10% 0px 10%;
+			}
+		}
+	}
+}
+@media (max-width: @screen-xs-max){
+	header{
+		.header_info{
+			background-image: url(../img/header/header_girl_xs.png);
+		}
+	}
+ 	section{
+		.input_group{
+			margin: 20px;
+			color: #cb171e;
+			p{
+				margin: 0;
+				font-size: 24px;
+			}
+			p.light_font{
+				font-size: 10px;
+			}
+			.input_group_style;
+			input, select{
+				border: 1px solid #ccc;
+			}
+		}
+		.content{
+			margin-right: 10px;
+			margin-left: 10px;
+			.tariff_table{
+				.tariff{
+					border: 1px solid #ccc;
+					margin-left: 10%;
+					margin-right: 10%;
+				}
+				.tariff_left_bottom, .tariff_right_top, .tariff_right_bottom{
+					border-top: 0;
+				}
+			}
+			.tariff_plans{
+				div{
+					max-height: 250px;
+				}
+				.price_block_small{
+					margin-top: 0px;
+				}
+				.price_block_with_bonus{
+					margin-top: 0;
+				}
+				.bonus_block{
+					margin-top: 10px;
+				}
+			}
+			.advantages{
+				padding: 5px 0 5px 0;
+				margin: 0 -10px 0 -10px;
+				div{
+					padding: 5px;
+				}
+			}
+		} 
+		.sign_up{
+			background-size: auto 105px;
+		}
+	}
+	footer{
+		.footer_block{
+			padding-top: 10px;
+		}
+	}
+}
+
