@@ -6791,7 +6791,7 @@ header .input_group button:hover {
     background-image: url(../img/header/header_girl_xs.png);
   }
   header .input_group {
-    margin: 45px 20px 0 0;
+    margin: 45px 40px 0 0;
     color: #fff;
   }
   header .input_group p {
@@ -6930,5 +6930,15 @@ header .input_group button:hover {
   }
   footer .footer_block {
     padding-top: 10px;
+  }
+}
+@media (max-width: 450px) {
+  header .logo {
+    width: 200px;
+    left: 50%;
+    margin-left: -100px;
+  }
+  header .header_center_block {
+    margin-left: -25px;
   }
 }
