@@ -6786,6 +6786,338 @@ header .input_group button {
 header .input_group button:hover {
   color: #fff;
 }
+/*section*/
+section .town {
+  display: table;
+  width: 100%;
+  height: 120px;
+  padding-bottom: 15px;
+  background-image: url(../img/town.png);
+  background-repeat: no-repeat;
+  background-size: 100% 120px;
+  background-position: center;
+}
+section .town div {
+  display: table-cell;
+  vertical-align: middle;
+}
+section .town p {
+  font-size: 24px;
+  color: #fff;
+  margin-bottom: 4px;
+}
+section .town p span {
+  font-family: 'proxima_light';
+}
+section .town span.regular_font {
+  font-size: 12px;
+  color: #fff;
+}
+section .content {
+  margin-left: 80px;
+  margin-right: 80px;
+}
+section .content p {
+  margin: 40px 0px 25px 0px;
+  color: #00a7d9;
+  font-size: 24px;
+}
+section .content p span {
+  font-family: 'proxima_regular';
+}
+section .content span.regular_font {
+  color: #838383;
+  font-size: 14px;
+}
+section .content .tariff_table {
+  margin-top: 30px;
+}
+section .content .tariff_table .tariff {
+  border: 1px solid #ccc;
+  height: 51px;
+}
+section .content .tariff_table .tariff_left_bottom {
+  border-top: 0;
+}
+section .content .tariff_table .tariff_right_top {
+  border-left: 0;
+}
+section .content .tariff_table .tariff_right_bottom {
+  border-left: 0;
+  border-top: 0;
+}
+section .content .tariff_table .tariff_img {
+  height: 40px;
+  float: left;
+  margin: 10px 10px 0px 20px;
+}
+section .content .tariff_table .tariff_img img {
+  height: 30px;
+}
+section .content .tariff_table .tariff_name {
+  line-height: 1.3;
+  margin: 0px 10px 0px 90px;
+}
+section .content .tariff_table .tariff_name div {
+  display: table;
+  height: 50px;
+}
+section .content .tariff_table .tariff_name p {
+  display: table-cell;
+  vertical-align: middle;
+  color: #474747;
+  margin: 0;
+  font-size: 13px;
+}
+section .content .tariff_table .tariff_name span {
+  font-size: 13px;
+}
+section .content .tariff_plans div {
+  max-height: 270px;
+}
+section .content .tariff_plans .price_block {
+  width: 180px;
+  margin: 50px auto 0 auto;
+}
+section .content .tariff_plans .price_block .circle {
+  width: 180px;
+  height: 180px;
+  border-radius: 90px;
+  background-color: #cb171e;
+}
+section .content .tariff_plans .price_block .circle span {
+  display: block;
+  position: relative;
+  z-index: 2;
+  line-height: 1;
+}
+section .content .tariff_plans .price_block .circle span.unlimited {
+  font-family: 'proxima_bold';
+}
+section .content .tariff_plans .price_block .circle .span01 {
+  font-size: 18px;
+  top: 25%;
+  color: #ffc600;
+  font-family: 'proxima_light';
+}
+section .content .tariff_plans .price_block .circle .full_price {
+  display: table;
+  margin: 25% 0 0 7%;
+}
+section .content .tariff_plans .price_block .circle .full_price .dollar,
+section .content .tariff_plans .price_block .circle .full_price .price,
+section .content .tariff_plans .price_block .circle .full_price .price_cent {
+  display: table-cell;
+  vertical-align: top;
+}
+section .content .tariff_plans .price_block .circle .full_price .dollar {
+  color: #fff;
+  font-size: 35px;
+  vertical-align: middle;
+}
+section .content .tariff_plans .price_block .circle .full_price .price {
+  color: #fff;
+  font-size: 70px;
+}
+section .content .tariff_plans .price_block .circle .full_price .price_cent {
+  padding-top: 3px;
+  color: #fff;
+  font-size: 35px;
+}
+section .content .tariff_plans .price_block .circle .days_limit {
+  display: block;
+  position: relative;
+  color: #ffc600;
+  font-size: 12px;
+  font-family: 'proxima_light';
+  top: -19%;
+  left: 28%;
+}
+section .content .tariff_plans .price_block .circle_small {
+  display: table;
+  z-index: 1;
+  width: 50px;
+  height: 50px;
+  border-radius: 25px;
+  background-color: #ec950a;
+  position: relative;
+  top: -178px;
+  left: 130px;
+  line-height: 1;
+}
+section .content .tariff_plans .price_block .circle_small p {
+  margin: 0;
+  display: table-cell;
+  color: #fff;
+  vertical-align: middle;
+  font-size: 16px;
+}
+section .content .tariff_plans .price_block .circle_small p span {
+  font-family: 'proxima_light';
+  font-size: 17px;
+  color: #ffc600;
+}
+section .content .tariff_plans .price_block_small {
+  width: 150px;
+  margin-top: 70px;
+}
+section .content .tariff_plans .price_block_small .circle {
+  width: 150px;
+  height: 150px;
+  border-radius: 75px;
+}
+section .content .tariff_plans .price_block_small .circle .span01 {
+  font-size: 16px;
+}
+section .content .tariff_plans .price_block_small .circle .full_price .dollar {
+  font-size: 28px;
+}
+section .content .tariff_plans .price_block_small .circle .full_price .price {
+  font-size: 54px;
+}
+section .content .tariff_plans .price_block_small .circle .full_price .price_cent {
+  padding-top: 2px;
+  font-size: 28px;
+}
+section .content .tariff_plans .price_block_small .circle .days_limit {
+  font-size: 10px;
+  top: -17%;
+  left: 24%;
+}
+section .content .tariff_plans .price_block_small .circle_small {
+  top: -138px;
+  left: 124px;
+}
+section .content .tariff_plans .price_block_with_bonus {
+  margin-top: 0px;
+}
+section .content .tariff_plans .dashed_circle {
+  position: relative;
+  height: 110px;
+  width: 110px;
+  border-radius: 55px;
+  border: 1px dashed #d7d7d7;
+  left: 55px;
+  top: -180px;
+  z-index: -1;
+}
+section .content .tariff_plans .up_circle {
+  top: -190px;
+  left: 63px;
+}
+section .content .tariff_plans .bonus_block {
+  margin-top: 35px;
+  margin-bottom: 5px;
+  font-size: 13px;
+  line-height: 1.2;
+}
+section .content .tariff_plans .bonus_block span.with_color {
+  color: #cb171e;
+}
+section .content .tariff_plans .bonus_block a {
+  font-family: 'proxima_regular';
+  color: #cb171e;
+  text-decoration: none;
+}
+section .content .advantages {
+  min-height: 70px;
+  border-top: 1px solid #ccc;
+  margin: 0px -80px 0px -80px;
+  padding: 22px 15% 0px 15%;
+}
+section .content .advantages img {
+  height: 20px;
+  margin-right: 10px;
+}
+section .content .advantages span {
+  font-size: 13px;
+  color: #474747;
+  font-family: 'proxima_regular';
+}
+section .content .advantages span.unlimited {
+  font-family: 'proxima_bold';
+}
+section .sign_up {
+  width: 100%;
+  height: 105px;
+  display: table;
+  background-image: url(../img/sign_up_bg.png);
+  background-repeat: repeat-x;
+  background-size: contain;
+  font-size: 24px;
+  text-align: center;
+  color: #fff;
+}
+section .sign_up div {
+  display: table-cell;
+  vertical-align: middle;
+}
+/*footer*/
+footer .footer_top_block {
+  background-color: #20272a;
+  padding: 40px 65px 40px 65px;
+}
+footer .footer_top_block .block_title {
+  padding-bottom: 10px;
+  margin-left: 15px;
+  margin-right: 15px;
+  color: #fff;
+  font-size: 10px;
+  border-bottom: 1px solid #3b4548;
+}
+footer .footer_top_block .link_block {
+  margin: 10px 15px 0px 15px;
+}
+footer .footer_top_block .link_block a {
+  display: block;
+  color: #7b898e;
+  font-size: 10px;
+  text-decoration: none;
+  font-family: 'proxima_regular';
+}
+footer .footer_top_block .link_block a.hover {
+  color: #7b898e;
+}
+footer .footer_top_block .block_inf {
+  margin: 10px 15px 0px 15px;
+  color: #7b898e;
+  font-size: 10px;
+  font-family: 'proxima_regular';
+  line-height: 1.3;
+}
+footer .footer_top_block .block_inf div {
+  display: table;
+  padding-top: 5px;
+  margin-bottom: 7px;
+}
+footer .footer_top_block .block_inf img {
+  height: 17px;
+  margin-right: 10px;
+}
+footer .footer_top_block .block_inf img.email {
+  height: 10px;
+}
+footer .footer_top_block .block_inf img.adress {
+  margin-top: 2px;
+}
+footer .footer_top_block .block_inf img.footer_logo {
+  height: 60px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+footer .footer_top_block .block_inf span {
+  display: table-cell;
+  vertical-align: middle;
+}
+footer .all_rights {
+  height: 60px;
+  background-color: #1a2022;
+  text-align: center;
+  color: #fff;
+  font-size: 10px;
+  padding-top: 15px;
+  font-family: 'proxima_regular';
+}
 @media (min-width: 768px) and (max-width: 991px) {
   header .header_info {
     background-image: url(../img/header/header_girl_xs.png);
@@ -6829,6 +7161,10 @@ header .input_group button:hover {
   header .input_group button:hover {
     color: #fff;
   }
+  section .content {
+    margin-left: 40px;
+    margin-right: 40px;
+  }
   section .content .tariff_plans div {
     max-height: 250px;
   }
@@ -6844,13 +7180,17 @@ header .input_group button:hover {
   section .content .advantages {
     padding: 22px 10% 0px 10%;
   }
+  footer .footer_top_block {
+    padding-right: 25px;
+    padding-left: 25px;
+  }
 }
 @media (max-width: 767px) {
   header .header_info {
     background-image: url(../img/header/header_girl_xs.png);
   }
   section .input_group {
-    margin: 20px;
+    margin: 20px 40px 20px 40px;
     color: #cb171e;
   }
   section .input_group p {
@@ -6893,21 +7233,16 @@ header .input_group button:hover {
     border: 1px solid #ccc;
   }
   section .content {
-    margin-right: 10px;
-    margin-left: 10px;
+    margin-right: 40px;
+    margin-left: 40px;
   }
   section .content .tariff_table .tariff {
     border: 1px solid #ccc;
-    margin-left: 10%;
-    margin-right: 10%;
   }
   section .content .tariff_table .tariff_left_bottom,
   section .content .tariff_table .tariff_right_top,
   section .content .tariff_table .tariff_right_bottom {
     border-top: 0;
-  }
-  section .content .tariff_plans div {
-    max-height: 250px;
   }
   section .content .tariff_plans .price_block_small {
     margin-top: 0px;
@@ -6920,13 +7255,17 @@ header .input_group button:hover {
   }
   section .content .advantages {
     padding: 5px 0 5px 0;
-    margin: 0 -10px 0 -10px;
+    margin: 0 -40px 0 -40px;
   }
   section .content .advantages div {
     padding: 5px;
   }
   section .sign_up {
     background-size: auto 105px;
+  }
+  footer .footer_top_block {
+    padding-right: 25px;
+    padding-left: 25px;
   }
   footer .footer_block {
     padding-top: 10px;
@@ -6940,5 +7279,12 @@ header .input_group button:hover {
   }
   header .header_center_block {
     margin-left: -25px;
+  }
+  section .input_group {
+    margin: 20px;
+  }
+  section .content {
+    margin-left: 20px;
+    margin-right: 20px;
   }
 }
